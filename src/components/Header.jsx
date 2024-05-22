@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/Style.css';
+import "../style/headerStyle.css";
 
 const Header = () => {
   return (
@@ -12,7 +12,7 @@ const Header = () => {
         </a>
 
         <h1 id="page-top" class="font-1">
-          Cafe dolce＆calmato
+          Bad Tdequila
         </h1>
       </div>
 
