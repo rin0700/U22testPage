@@ -1,0 +1,26 @@
+.imgTitle {
+  text-align: center;
+}
+
+.barImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hiroImage {
+  width: 600px;
+  height: 800px;
+}
+
+.text {
+  margin-left: 20px;
+}

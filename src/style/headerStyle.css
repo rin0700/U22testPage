@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* #region 色の定義 */
+:root {
+  --background-color: #ffffff;
+  --text-color: #333;
+  --section-background: #1f3134;
+  --primary-color: #1f3134;
+  /* テーマカラー */
+  --accent-color: #C5956B;
+  --text-muted: #888;
+  --menu-effect: #6c3524;
+}
+
+/* #endregion */
+
+/* ページ全体のフォントと背景 */
+body {
+  /* font-family: 'Arial', sans-serif; */
+  margin: 0;
+  padding: 0;
+  background-image: url("https://saitama-bg.com/blog/wp-content/uploads/grain1_10_sume.jpg");
+  background-repeat: repeat;
+  /* background-color: var(--background-color); */
+  color: var(--text-color);
+
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5px 0 0px 0;
+
+  position: sticky;
+  /* ヘッダーを固定する */
+  height: 22%;
+  /*高さを新しく追加しました！！！全然消して頂いて貰って大丈夫です！*/
+  width: 100%;
+  top: 0;
+  /* 上部に配置 */
+  background-color: var(--primary-color);
+  /* ヘッダーの背景色 */
+  z-index: 1000;
+  /*他の要素よりも上に表示*/
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Flex要素の設定用クラス */
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  /* クロス軸上でアイテムを中央に配置 */
+}
+.menu-bar{
+  display: flex;
+  flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
+  list-style: none;
+  justify-content: center;
+}
+
+.menu-bar li a{
+  display: block;
+  padding:10px 30px;
+  text-decoration: none;
+}
+
+.menu-bar li{
+  margin-bottom:0px;
+}
+
+/*=================================
+上下に線が伸びて背景になる
+===================================*/
+
+.menu-bar li a{
+  /*線の基点とするためrelativeを指定*/
+position: relative;
+  /*はみ出る要素を隠す*/
+overflow: hidden;
+  /*アニメーションの指定*/
+transition: all .2s;
+}
+
+/*現在地とhoverの設定*/
+.menu-bar li a:hover{
+  /*背景色をつける*/
+  background: var(--menu-effect);
+color:#fff;
+}
+
+/*背景がつくのアニメーションの開始を0.5秒遅らせる*/
+.menu-bar li a:hover{
+transition-delay: .5s;
+}
+
+/*線の設定*/
+.menu-bar li a:before,
+.menu-bar li a:after {
+  content: "";
+  /*絶対配置で線の位置を決める*/
+  position: absolute;
+  left: 0;
+  /*線の形状*/
+  height: 2px;
+  width:100%;
+  background: var(--menu-effect);
+  /*アニメーションの指定*/
+transition: all .5s;
+}
+
+/*線の位置と変化*/
+.menu-bar li a::before {
+  top: 0;
+transform: translateX(-100%);/*X方向に-100%移動*/
+}
+.menu-bar li a::after {
+  bottom: 0;
+transform: translateX(100%);/*X方向に100%移動*/
+}
+
+/*hoverした際の線の変化*/
+.menu-bar li a:hover::before ,
+.menu-bar li a:hover::after {
+transform: translateX(0);/*X方向に0%移動*/
+}
