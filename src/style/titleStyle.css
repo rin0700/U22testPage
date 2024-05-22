@@ -1,3 +1,5 @@
+
+
 .imgTitle {
   text-align: center;
 }
@@ -7,6 +9,7 @@
   margin: 0 auto;
   max-width: 70%;
   height: auto;
+  border-radius: 10px;
 }
 
 .content {
@@ -19,6 +22,7 @@
 .hiroImage {
   width: 600px;
   height: 800px;
+  border-radius: 100px;
 }
 
 .text {

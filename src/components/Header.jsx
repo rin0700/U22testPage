@@ -8,7 +8,7 @@ const Header = () => {
         {/* ロゴ画像を追加 */}
         <a href="http://localhost//Cafe%20dolceCalmato/index.php">
           {/* ロゴがクリックされた時のリンク先を指定 */}
-          <img src="../cafe_logo.png" alt="Cafe Logo" class="logo-image" />
+          <img src="../icon.png" alt="Cafe Logo" class="logo-image" />
         </a>
 
         <h1 id="page-top" class="font-1">
@@ -20,26 +20,21 @@ const Header = () => {
         <ul class="menu-bar">
           <li>
             <h2 class="font-2">
-              <a href="#home">Home</a>
+              <a href="#home">Login</a>
             </h2>
           </li>
           <li>
             <h2 class="font-2">
               <a href="http://localhost//Cafe%20dolceCalmato/index.php#menu">
-                Menu
+                NetShop
               </a>
             </h2>
           </li>
           <li>
             <h2 class="font-2">
               <a href="http://localhost//Cafe%20dolceCalmato/TartOrder.php">
-                Shop
+              Inquire
               </a>
-            </h2>
-          </li>
-          <li>
-            <h2 class="font-2">
-              <a href="#contact">Contact</a>
             </h2>
           </li>
         </ul>

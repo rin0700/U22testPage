@@ -3,13 +3,13 @@
 /* #region 色の定義 */
 :root {
   --background-color: #ffffff;
-  --text-color: #333;
-  --section-background: #1f3134;
-  --primary-color: #1f3134;
+  --text-color: #ffffff;
+  --section-background: #1f1f1f;
+  --primary-color: #1c1c1c;
   /* テーマカラー */
   --accent-color: #C5956B;
   --text-muted: #888;
-  --menu-effect: #6c3524;
+  --menu-effect: #b5b5b567;
 }
 
 /* #endregion */
@@ -19,7 +19,7 @@ body {
   /* font-family: 'Arial', sans-serif; */
   margin: 0;
   padding: 0;
-  background-image: url("https://saitama-bg.com/blog/wp-content/uploads/grain1_10_sume.jpg");
+  background-image: url("https://img.freepik.com/premium-photo/dark-cement-texture-background-grunge-concrete-black-background_330494-366.jpg");
   background-repeat: repeat;
   /* background-color: var(--background-color); */
   color: var(--text-color);
