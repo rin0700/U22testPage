@@ -1,15 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/headerStyle.css";
+
 
 const Header = () => {
   return (
     <header>
       <div class="header-logo">
         {/* ロゴ画像を追加 */}
-        <a href="http://localhost//Cafe%20dolceCalmato/index.php">
+
           {/* ロゴがクリックされた時のリンク先を指定 */}
           <img src="../icon.png" alt="Cafe Logo" class="logo-image" />
-        </a>
 
         <h1 id="page-top" class="font-1">
           Bad Tdequila
@@ -18,14 +19,16 @@ const Header = () => {
 
       <nav>
         <ul class="menu-bar">
+          <Link to="/login">
           <li>
             <h2 class="font-2">
               <a href="#home">Login</a>
             </h2>
           </li>
+          </Link>
           <li>
             <h2 class="font-2">
-              <a href="http://localhost//Cafe%20dolceCalmato/index.php#menu">
+              <a >
                 NetShop
               </a>
             </h2>
