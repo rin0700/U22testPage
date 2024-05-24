@@ -1,8 +1,13 @@
 import React from 'react'
+import InquireBox from '../components/InquireBox'
+import Header from '../components/Header'
 
 function Inquire() {
   return (
-    <div>Inquire</div>
+    <>
+    <Header />
+    <InquireBox />
+    </>
   )
 }
 
