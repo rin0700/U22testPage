@@ -1,8 +1,14 @@
 import React from 'react'
+import Logintextfiled from '../components/Logintextfiled'
+import Header from '../components/Header'
 
-function Login() {
+
+const Login = () => {
   return (
-    <div>Login</div>
+    <>
+    <Header /><br /><br /><br /><br /><br />
+    <Logintextfiled/>
+    </>
   )
 }
 
