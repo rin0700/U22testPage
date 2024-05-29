@@ -1,5 +1,6 @@
 // src/components/LoginTextField.js
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 import "../style/logintextfiledStyle.css";
 
 const LoginTextField = () => {
@@ -14,11 +15,15 @@ const LoginTextField = () => {
         <input type="password" id="password" name="password" />
       </div>
       <div className="button-container">
+        <Link to="/LoginSuccess">
         <button type="button">ログイン</button>
-        <button type="button" className="register-button"><p1>新規登録</p1></button>
+        </Link>
+        <button type="button" className="register-button">
+          <p1>新規登録</p1>
+        </button>
       </div>
     </div>
   );
-}
+};
 
 export default LoginTextField;
