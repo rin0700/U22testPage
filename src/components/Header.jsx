@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div class="header-logo">
         <Link to="/">
-        <img src="../icon.png" alt="Cafe Logo" class="logo-image" />
+          <img src="../icon.png" alt="Cafe Logo" class="logo-image" />
         </Link>
         <h1 id="page-top" class="font-1">
           Bad Tdequila

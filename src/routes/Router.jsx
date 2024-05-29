@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Netshop from "../pages/Netshop";
 import Inquire from "../pages/Inquire";
+import LoginSuccess from "../pages/LoginSuccess";
 
 const Router = () => {
   return (
@@ -13,6 +14,7 @@ const Router = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/netshop" element={<Netshop />} />
           <Route path="/inquire" element={<Inquire />} />
+          <Route path="/LoginSuccess" element={<LoginSuccess />}/>
         </Routes>
       </BrowserRouter>
     </>
