@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../style/inquireStyle.css";
 
 function InquireBox() {

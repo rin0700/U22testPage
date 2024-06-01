@@ -10,7 +10,7 @@ const Header = () => {
           <img src="../icon.png" alt="Cafe Logo" class="logo-image" />
         </Link>
         <h1 id="page-top" class="font-1">
-          Bad Tdequila
+          Bad Tequila
         </h1>
       </div>
       <nav>
@@ -22,7 +22,7 @@ const Header = () => {
               </h2>
             </li>
           </Link>
-          <Link to="/netshop">
+          <Link to="/netShop">
             <li>
               <h2 class="font-2">
                 <a>NetShop</a>

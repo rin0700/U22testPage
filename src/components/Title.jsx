@@ -4,16 +4,15 @@ import "../style/titleStyle.css";
 const Title = () => {
   return (
     <div className="imgTitle">
-      <h2>このサイトはU22のNazotool用テストページです。</h2>
+      <h2>このサイトはU22のNaZoTool用テストページです。</h2>
       <p>
-        Nazo
-        Toolは、Webアプリケーションのセキュリティ診断と巡回を行うツールです。
+        NaZoToolは、Webアプリケーションのセキュリティ診断と巡回を行うツールです。
         <br />
         クローラー機能では、HTMLやJavaScriptの解析、自動ログイン、cookie・headerの取得などを行います。
         <br />
         脆弱性診断機能では、SQLインジェクションやXSSなどの主要な脆弱性を検出し、リスク評価や対策方法をレポートとして提供します。
         <br />
-        Nazo Toolで、簡単にWebアプリケーションのセキュリティを強化しましょう。
+        NaZoToolで、簡単にWebアプリケーションのセキュリティを強化しましょう。
       </p>
       <img src="../Bar.png" className="barImage" alt="Bar" />
       <br />
