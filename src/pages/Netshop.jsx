@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import "../style/netshopStyle.css";
+import "../style/netShopStyle.css";
 
 const products = [
   {

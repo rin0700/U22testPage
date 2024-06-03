@@ -17,7 +17,7 @@ const Title = () => {
       <img src="../Bar.png" className="barImage" alt="Bar" />
       <br />
       <div className="content">
-        <img src="../Hirofumi.jpg" className="hiroImage" alt="Hirofumi" />
+        <img src="../Hiro.jpg" className="hiroImage" alt="anyTimeEngineer" />
         <div className="text">
           <h2>店長紹介</h2>
           <p>

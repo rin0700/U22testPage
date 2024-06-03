@@ -1,7 +1,7 @@
 // src/components/LoginTextField.js
 import React from "react";
 import { Link } from "react-router-dom";
-import "../style/logintextfiledStyle.css";
+import "../style/loginTextFiledStyle.css";
 
 const LoginTextField = () => {
   return (
