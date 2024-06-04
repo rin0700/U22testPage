@@ -19,7 +19,7 @@ const products = [
   },
 ];
 
-function Netshop() {
+function NetShop() {
   const [quantities, setQuantities] = useState(products.map(() => 0));
 
   const handleQuantityChange = (index, value) => {
@@ -48,7 +48,7 @@ function Netshop() {
             <img
               src={product.image}
               alt={product.name}
-              style={{ borderRadius:10, width: "400px", height: "400px" }}
+              style={{ borderRadius: 10, width: "400px", height: "400px" }}
             />
             <p>価格: {product.price} 円</p>
             <label>
@@ -75,4 +75,4 @@ function Netshop() {
   );
 }
 
-export default Netshop;
+export default NetShop;

@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
-import NetShop from "../pages/Netshop";
+import NetShop from "../pages/netShop";
 import Inquire from "../pages/Inquire";
 import LoginSuccess from "../pages/LoginSuccess";
-
 
 const Router = () => {
   return (
@@ -15,7 +14,7 @@ const Router = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/NetShop" element={<NetShop />} />
           <Route path="/inquire" element={<Inquire />} />
-          <Route path="/LoginSuccess" element={<LoginSuccess />}/>
+          <Route path="/LoginSuccess" element={<LoginSuccess />} />
         </Routes>
       </BrowserRouter>
     </>
