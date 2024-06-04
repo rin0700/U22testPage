@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <>
     <Header /><br /><br /><br /><br /><br />
-    <Logintextfiled/>
+    <Logintextfiled />
     </>
   )
 }
